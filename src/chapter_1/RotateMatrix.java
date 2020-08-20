@@ -1,13 +1,11 @@
 package chapter_1;
 
 public class RotateMatrix {
-
+    /*
+     * time - O(n*n)
+     * space - O(1)
+     * */
     public boolean solve(int[][] matrix) {
-
-        /*
-         * time - O(n*n)
-         * space - O(1)
-         * */
         int N = matrix.length;
 
         if (N == 0) {
